@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Green Genetics</title>
+  <link rel="icon"
+    href="image/kisscc0-leaf-drawing-download-plant-stem-green-leaves-graphics-5b3de0a0eba100.8116373115307818569651.png">
+  <!-- css -->
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/all.min.css" />
+  <!-- FONT FAMILY -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,100;9..40,200;9..40,300;9..40,400;9..40,500;9..40,600;9..40,700;9..40,800;9..40,900;9..40,1000&family=Merienda:wght@300;400;500;600;700;800;900&display=swap"
+    rel="stylesheet">
+</head>
+
+<body style="font-family: 'DM Sans', sans-serif;">
+  <!-- ====video container + header==== -->
+  <!-- ====videos==== -->
+  <div class="video-container h-screen pt-[115px] overflow-hidden relative">
+    <div class="video-s top-0 right-0 bottom-0 left-0 absolute">
+      <video autoplay muted loop class="active-vid" id="vid1">
+        <source src="videos/vid1-video.mp4" type="video/mp4" />
+      </video>
+      <video autoplay muted loop id="vid2">
+        <source src="videos/vid2-video.mp4" type="video/mp4" />
+      </video>
+      <video autoplay muted loop id="vid3">
+        <source src="videos/vid3-video.mp4" type="video/mp4" />
+      </video>
+      <video autoplay muted loop id="vid4">
+        <source src="videos/vid4-video.mp4" type="video/mp4" />
+      </video>
+    </div>
+    <div class="video-selction flex justify-center items-center flex-col w-full h-full relative">
+      <!--====header==== -->
+      <header class="main-header head-head flex w-full bg-[#1a4314f1] text-white text-xl fixed top-0 z-50 px-3">
+        <div class="container ml-auto mr-auto flex justify-between items-center">
+          <nav class="nav flex justify-between  flex-col flex-1 self-end h-full">
+            <!-- ====logo+login in header==== -->
+            <div class="contact flex justify-between items-end w-full mt-2">
+              <a href="index.html" class="logo cursor-pointer">
+                <img
+                  src="image/kisscc0-leaf-drawing-download-plant-stem-green-leaves-graphics-5b3de0a0eba100.8116373115307818569651.png"
+                  class="w-10" alt="" />
+                <h1 class="text-white"><span class="text-seafoamco">Green</span>Genetics</h1>
+              </a>
+              <ul class="flex justify-center items-center">
+                <li class="text-base">
+                  <a target="_blank" title="contact" href="contact.html" class="">
+                    <i class="fa-solid fa-user-pen mr-2 text-xl"></i>
+                  </a>
+                </li>
+                <li>
+                  <a target="_blank" href="shop.html"><button
+                      class="py-1 ml-2 px-8 rounded-xl font-bold bg-limeco">SHOP</button></a>
+                </li>
+                <li class="ml-3">
+                  <div class="burger">
+                    <span></span>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <!-- ====header links==== -->
+            <ul id="g-links" class="genetics-links relative flex justify-around w-full items-end">
+              <i class="fa-solid fa-xmark p-3 block text-3xl mb-3"></i>
+              <li class="links">
+                <div class="link-det flex justify-between items-center p-2">
+                  <span class="inline mr-2 static-span">EDIBLE GARDENING <i
+                      class="flex static-arow fa-solid fa-chevron-down"></i></span>
+                  <i class="i-arow fa-solid fa-chevron-down"></i>
+                </div>
+                <ul class="link">
+                  <div>
+                    <a href="links.html#fruits" data-category="fruits">
+                      <li>FRUITS</li>
+                    </a>
+                    <a href="links.html#harvesting" data-category="harvesting">
+                      <li>HARVESTING</li>
+                    </a>
+                    <a href="links.html#microgreens" data-category="microgreens">
+                      <li>MICROGREENS</li>
+                    </a>
+                    <a href="links.html#vegetables" data-category="vegetables">
+                      <li>VEGETABLES</li>
+                    </a>
+                  </div>
+                </ul>
+              </li>
+              <li class="links">
+                <div class="link-det flex justify-between items-center p-2">
+                  <span class="inline mr-2 static-span">ORNAMENTAL GARDENING <i
+                      class="static-arow fa-solid fa-chevron-down"></i></span></span>
+                  <i class="i-arow fa-solid fa-chevron-down"></i>
+                </div>
+                <ul class="link">
+                  <div>
+                    <a href="links.html#trees" data-category="trees">
+                      <li>Trees</li>
+                    </a>
+                    <a href="links.html#flowers" data-category="flowers">
+                      <li>Flowers</li>
+                    </a>
+                    <a href="links.html#housePlants" data-category="housePlants">
+                      <li>Houseplants</li>
+                    </a>
+                  </div>
+                </ul>
+              </li>
+              <li class="links">
+                <div class="link-det flex justify-between items-center p-2">
+                  <span class="inline mr-2 static-span">BASICS <i
+                      class="static-arow fa-solid fa-chevron-down"></i></span></span>
+                  <i class="i-arow fa-solid fa-chevron-down"></i>
+                </div>
+                <ul class="link">
+                  <div>
+                    <a href="links.html#accessibileGardens" data-category="accessibileGardens">
+                      <li>ACCESSIBLE GARDENS</li>
+                    </a>
+                    <a href="links.html#gardeningTips" data-category="gardeningTips">
+                      <li>GARDENING TIPS</li>
+                    </a>
+                    <a href="links.html#homesteading" data-category="homesteading">
+                      <li>HOMESTEADING</li>
+                    </a>
+                    <a href="links.html#hydroponics" data-category="hydroponics">
+                      <li>HYDROPONICS</li>
+                    </a>
+                    <a href="links.html#raisedBedGardening" data-category="raisedBedGardening">
+                      <li>RAISED BED GARDENING</li>
+                    </a>
+                  </div>
+                </ul>
+              </li>
+              <li class="links">
+                <div class="link-det flex justify-between items-center p-2">
+                  <span class="inline mr-2 static-span">PLANT PROBLEMS <i
+                      class="static-arow fa-solid fa-chevron-down"></i></span></span>
+                  <i class="i-arow fa-solid fa-chevron-down"></i>
+                </div>
+                <ul class="link">
+                  <div>
+                    <a href="links.html#gardenPests" data-category="gardenPests">
+                      <li>GARDEN PESTS</li>
+                    </a>
+                    <a href="links.html#organicTreatments" data-category="organicTreatments">
+                      <li>ORGANIC TREATMENTS</li>
+                    </a>
+                  </div>
+                </ul>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </header>
+      <!-- ====video tabs hover==== -->
+      <div class="vids-tabs w-full flex justify-between items-center ">
+        <p class="explain text-white font-bold text-center"></p>
+        <div class="vid-id">
+          <a href="#green-section">
+            <div data-id="vid1" class="rotate-letters text-white px-3 flex justify-end items-center">GREEN GENETICS
+            </div>
+          </a>
+          <a href="#dream-section">
+            <div data-id="vid2" class="rotate-letters text-white px-3 flex justify-end items-center">DREAM</div>
+          </a>
+          <a href="#courses-section">
+            <div data-id="vid3" class="rotate-letters text-white px-3 flex justify-end items-center">COURSES</div>
+          </a>
+          <a href="#jobs-section">
+            <div data-id="vid4" class="rotate-letters text-white px-3 flex justify-end items-center">WORK</div>
+          </a>
+        </div>
+      </div>
+      <!-- ====experience==== -->
+      <div class="experience flex justify-center center items-center w-full text-center">
+        <div class="bg-seafoamco text-gray-600 h-full flex justify-center items-center flex-col">
+          <span class="block text-gray-700 text-5xl py-1">2023</span> Last Reward
+        </div>
+        <div class="bg-seafoamco text-gray-600 h-full flex justify-center items-center flex-col">
+          <span class="block text-gray-700 text-5xl py-1">10</span> Customrs of 10 happy
+        </div>
+        <div class="bg-seafoamco text-gray-600 h-full flex justify-center items-center flex-col">
+          <span class="block text-gray-700 text-5xl py-1">10</span> Years Of Experience
+        </div>
+        <div class="bg-seafoamco text-gray-600 h-full flex justify-center items-center flex-col">
+          <span class="block text-gray-700 text-5xl py-1">99.9%</span>On Time - In Full
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- color: var(--froest-co);
+  flex: 1;
+  letter-spacing: 1px; -->
+  <!-- ====page sections==== -->
+  <div class="all-sections pt-36">
+    <section id="green-section">
+      <div class="section-div hidden-observe flex relative">
+        <div class="description flex flex-col justify-between h-4/5 w-3/5 overflow-hidden bg-seafoamco p-10">
+          <h2 class="text-8xl mb-10 text-betterGreen">GENETICS <i class="fa-solid fa-angles-down"></i></h2>
+          <p class="mt-5 text-center leading-relaxed flex-1 tracking-widest text-forestco">Hi we are Green Genetics we
+            start our company in "2013"
+            we
+            was
+            so simpel at the
+            first "3 years" of our work, and then we thought about why not make this company the start point for anyone
+            who
+            love plants, we was searching so hard at first where we start, and thats why! we don't want all people who
+            love
+            this carrer get tierd as we did, so we help who love greens to not fall in so many situations, <br> welcome
+            in
+            <span class="text-2xl"><span class="text-betterGreen">Genetics</span></span>
+          </p>
+        </div>
+        <div 
+          class="ggDiv image w-2/5 h-full absolute right-0 -z-10 overflow-hidden rounded-3xl">
+          <img class="w-full h-full object-cover " src="image/greengen.jpg" alt="">
+        </div>
+      </div>
+      <div class="container mx-auto pt-20 text-white">
+        <div class="mb-44 relative">
+          <h3 class="text-8xl text-center text-seafoamco">Our Mission</h3>
+          <img src="image/hiclipart.com.png" alt="" class="absolute bottom-[-150px] right-2/4 translate-x-2/4">
+        </div>
+        <section class="ourMission p-2">
+          <div class="bg-gray-100 p-5 flex flex-col justify-between items-center">
+            <i class="fa-solid fa-person-chalkboard text-8xl text-forestco"></i>
+            <h4 class="text-2xl my-4 text-darkerGreen">Empowering Through Education</h4>
+            <p class="text-forestco text-center">We believe in the transformative power of gardening. That's why we go
+              beyond offering products; we
+              provide comprehensive courses to equip you with the knowledge and skills to nurture your green spaces. Our
+              expert-led courses cover everything from plant care basics to advanced gardening techniques.</p>
+          </div>
+          <div class="bg-gray-100 p-5  flex flex-col justify-center items-center">
+            <i class="fa-solid fa-person-digging text-8xl text-forestco"></i>
+            <h4 class="text-2xl my-4 text-darkerGreen">Growing Careers</h4>
+            <p class="text-forestco text-center"> GreenGenatics is not just a company; it's a community. We are
+              dedicated to helping young individuals kickstart rewarding careers in the world of horticulture. Through
+              our programs, we aim to create opportunities for aspiring gardeners, fostering a new generation of green
+              thumbs..</p>
+          </div>
+          <div class="bg-gray-100 p-5 flex flex-col justify-center items-center">
+            <i class="fa-solid fa-people-robbery text-8xl text-forestco"></i>
+            <h4 class="text-2xl my-4 text-darkerGreen">Crafting Personal Oases</h4>
+            <p class="text-forestco text-center"> Your dream garden is our mission. Our experienced team of garden
+              designers can turn your vision into reality. Whether you have a small balcony or a spacious backyard, we
+              specialize in creating customized gardens that reflect your style, preferences, and the local environment.
+            </p>
+          </div>
+        </section>
+      </div>
+      <div class="manger-team container mx-auto pt-10">
+        <div class="manger text-white">
+          <div class="image">
+            <img class="max-w-full" src="image/manger-team.png" alt="">
+          </div>
+          <div class="p-10">
+            <div class="mb-8">
+              <h4 class="text-6xl mb-8 text-start ">Meet Our Team</h4>
+              <div class="mb-8">
+                <h5 class="text-4xl mb-2 text-seafoamco">Manger</h5>
+                <p class="text-2xl tracking-[1.5px] text-seafoamco">ARTHUR MORGAN</p>
+              </div>
+              <p class="tracking-wider leading-relaxed mb-6">With a profound background in the art and science of gardening, Arthur Morgan stands as a visionary
+                leader who has spent decades cultivating some of the largest and most breathtaking gardens in the world.
+                His extensive expertise and unwavering dedication to the craft led him to establish GreenGenatics with
+                the visionary goal of making gardening accessible to everyone.</p>
+
+              <p class="tracking-wider leading-relaxed mb-6">Under Arthur's leadership, GreenGenatics has flourished into an industry leader, known for innovative
+                horticultural practices, sustainable gardening solutions, and the creation of botanical wonders that
+                captivate the world. Arthur's commitment to GardeningForEveryOne is evident in the diverse range of
+                projects undertaken by GreenGenatics, each reflecting his passion for harmonizing nature and human
+                spaces.</p>
+            <div class="text-gray-200">
+              <p class="mb-6">
+                Our Instructors: Meet the talented individuals who make our courses engaging and educational. Our
+                instructors bring a wealth of knowledge and practical experience to guide you on your gardening journey.
+              </p>
+              <p class="mb-8">
+                Join us at GreenGenatics as we cultivate a greener, more connected world—one garden at a time.
+              </p>
+              <div>
+                <h5 class="text text-4xl">Our Instructors</h5>
+                <article>
+                  <p>John</p>
+                  <p>Michael</p>
+                  <p>Christopher</p>
+              </article>
+              <article>
+                  <p>Emily</p>
+                  <p>Sophia</p>
+              </article>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+      <div>
+    </section>
+
+    <section id="dream-section" class=" relative mt-36 ">
+      <div class="section-div hidden-observe flex justify-end relative">
+        <div class="description flex flex-col justify-between items-center p-5 h-full w-6/12 ">
+          <h2 class="text-8xl mb-10 text-seafoamco">DREAMS <i class="fa-solid fa-angles-down"></i></h2>
+          <p class="mt-5 text-center leading-relaxed flex-1 tracking-widest text-white">We can help you build your dream
+            garden by send to you
+            our
+            builders with all tools that you want, if. you have your own style but. if you don't we can show you
+            exampels from small
+            gardens to the biggest, and even we can lending you from biggest Banks so don't worry much with us we love
+            you
+          </p>
+
+        </div>
+        <div class="image w-2/4 h-full absolute left-0 -z-10 overflow-hidden ">
+          <img class="w-full h-full object-cover" src="image/dream.jpg" alt="">
+        </div>
+      </div>
+    </section>
+    <section id="courses-section" class=" mt-36 ">
+      <div class="section-div hidden-observe flex relative">
+        <div
+          class="description flex flex-col justify-between h-4/5 w-3/5 rounded-tr-[80px] rounded-br-[80px] overflow-hidden bg-seafoamco p-10">
+          <h2 class="text-8xl mb-10 text-betterGreen">COURSES <i class="fa-solid fa-angles-down"></i></h2>
+          <p class="mt-5 text-center leading-relaxed flex-1 tracking-widest text-forestco">We can give you courses to
+            take care of your own
+            plants,
+            any "types of" plants like Fruits, Vegetables, Nut Trees, Microgreens, and more..., and even we can tell
+            what is
+            good tools to use with each type of plants we can make you professional we can even teach you how to give
+            advices for others and how to lead your team more and more... <br> so what you waiting for come to us!</p>
+        </div>
+        <div class="image w-2/4 h-full absolute right-0 -z-10 overflow-hidden rounded-tl-[80px] rounded-bl-[80px]">
+          <img class="w-full h-full object-cover" src="image/courses.jpg" alt="">
+        </div>
+      </div>
+    </section>
+    <section id="jobs-section" class=" mt-36 ">
+      <div class="section-div hidden-observe flex justify-end relative">
+        <div class="description flex flex-col justify-between items-center p-5 h-full w-6/12 ">
+          <h2 class="text-8xl mb-10 text-seafoamco">JOBS <i class="fa-solid fa-angles-down"></i></h2>
+          <p class="mt-5 text-center leading-relaxed flex-1 tracking-widest text-white">If you love plants as we do and
+            you feel this is your
+            future you'r in the right place, come here and get your green job don't worry much if you don't know much
+            we'r
+            here beside you we love helping youths, and we feel how its hard to get experience to land your first green
+            job, so we don't
+            care if you have or not we will teach you and give you monye on it, of your first "3 months" come and join
+            our
+            team and start your carrer!</p>
+        </div>
+        <div class="image w-2/4 h-full absolute left-0 -z-10 overflow-hidden">
+          <img class="w-full h-full object-cover" src="image/jobs.jpg" alt="">
+        </div>
+      </div>
+    </section>
+  </div>
+  <!-- ====join section==== -->
+  <div class="join-section mt-36 flex justify-center items-center" style="background-image:url('image/join.jpg');">
+    <div class="join-content text-center">
+      <h3 class="text-3xl text-white mb-3 font-bold">tell us what you want</h3>
+      <p class="mb-3 text-white text-lg">Dsicover how is our global company helping you to atchive what you want</p>
+      <a target="_blank" href="contact.html"><button class="py-2 px-8 rounded-xl font-bold">JOIN!</button></a>
+    </div>
+  </div>
+  <!-- offer section -->
+  <div class="offer text-gray-700 text-xl text-center py-2 bg-seafoamco">
+    <h3>We have an offer now more than 60% <a target="_blank" href="shop.html"><button
+          class="py-1 ml-2 px-8 rounded-xl font-bold">SHOP</button></a> </h3>
+  </div>
+
+  <!-- fotter -->
+  <div class="footer bg-forestco">
+    <footer class="container ml-auto mr-auto">
+      <div class="fo-fl flex justify-between p-10">
+        <!--====footer logo==== -->
+        <div class="logo-title text-white text-5xl">
+          <div class="logo ">
+            <img
+              src="image/kisscc0-leaf-drawing-download-plant-stem-green-leaves-graphics-5b3de0a0eba100.8116373115307818569651.png"
+              class="w-10" alt="" />
+            <h6 class=""><span class="text-seafoamco">Green</span>Genetics</h6>
+          </div>
+          <h3 class="mt-2">Enjoy</h3>
+        </div>
+        <!-- ====footer links==== -->
+        <div class="footer-links flex gap-8 flex-1 justify-end">
+          <ul id="" class=" text-white">
+            <h4 class="text-3xl mb-3">Company</h4>
+            <li class="mb-1"><a href="">About</a></li>
+            <li id="" class="mb-1"><a href="">Careers</a></li>
+            <li id="" class="mb-1"><a href="">Privacy Policy</a></li>
+            <li id="" class="mb-1"><a href="">Contact</a></li>
+          </ul>
+          <ul id="" class=" text-white ">
+            <h4 class="text-3xl mb-3">Connect</h4>
+            <li class="mb-1"><a href="">Facebook</a></li>
+            <li id="" class="mb-1"><a href="">Youtube</a></li>
+            <li id="" class="mb-1"><a href="">Twitter</a></li>
+            <li id="" class="mb-1"><a href="">Instagram</a></li>
+          </ul>
+        </div>
+      </div>
+      <!-- ====footer copy-right==== -->
+      <div class="copy-right text-xs p-3 px-10 text-white">
+        Copyright © <span></span> Green Genetics. All Rights Reserved. Privacy Notice
+      </div>
+    </footer>
+  </div>
+  <script src="js/index.js"></script>
+  <script src="js/links.js"></script>
+  <script src="js/shop.js"></script>
+</body>
+
+</html>

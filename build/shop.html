@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/all.min.css" />
+  <title>Genetics SHOP</title>
+  <link rel="icon"
+    href="image/kisscc0-leaf-drawing-download-plant-stem-green-leaves-graphics-5b3de0a0eba100.8116373115307818569651.png">
+  <!-- css links -->
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/all.min.css" />
+
+  <!-- Font Family -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,100;9..40,200;9..40,300;9..40,400;9..40,500;9..40,600;9..40,700;9..40,800;9..40,900;9..40,1000&family=Merienda:wght@300;400;500;600;700;800;900&display=swap"
+    rel="stylesheet">
+</head>
+
+<body class="shop-page bg-slate-50">
+  <header class="shop-header flex justify-center items-center">
+    <nav class="container flex justify-between items-center p-3">
+      <div class="">
+        <a class="" href="shop.html"><img class="" src="image/shop-page/genatics-shop-logo.png" alt=""></a>
+      </div>
+      <ul class="flex justify-between items-center p-3">
+        <li class="mr-3 hover:text-limeco font-light tracking-wider transition"><a href="shop.html">Shop</a></li>
+        <li class="mr-3 hover:text-limeco font-light tracking-wider transition"><a href="products.html">Products</a></li>
+        <li class="text-2xl relative"><button id="openCartBtn"><span class="totalCart" id="totaCart">0</span><i
+              class="fa-solid fa-cart-shopping hover:text-darkerGreen"></i></button></li>
+      </ul>
+    </nav>
+  </header>
+
+  <div id="cart-aside" class="clshidden cart-aside flex flex-col items-start">
+    <button id="closeCartBtn" class="close-btn text-4xl ml-3 hover:text-gray-600">&times;</button>
+    <div id="shoppingCartSidebar" class="shoppingCartSidebar flex-1 flex flex-col items-center p-4">
+    </div>
+    <div class="self-center p-5 flex flex-col justify-center items-center">
+      <i class="text-3xl text-zinc-800 mb-2">TOTAL: <span class="text-black" id="totalPrice">0</span> </i>
+      <button class="bg-darkerGreen text-white  px-10 py-2 hover:text-lime-300">CHECKOUT</button>
+    </div>
+  </div>
+
+  <section class="slider-wrapper mx-auto">
+    <img class="big-leaf-bg" src="image/shop-page/shop-details/big-leaf.png" alt="">
+    <!-- <img class="small-leafs-bg" src="image/shop-page/shop-details/dropping-leafs.png" alt=""> -->
+    <button class="slide-arrow" id="slide-arrow-prev">
+      &#8249;
+    </button>
+    <button class="slide-arrow" id="slide-arrow-next">
+      &#8250;
+    </button>
+    <ul class="slides-container" id="slides-container">
+      <li class="slide">
+        <div class="slide-content container flex justify-center items-center gap-x-14 w-full h-full">
+          <div class="image ">
+            <img src="image/shop-page/planter&beds/beds&planter-banner.png" alt="">
+          </div>
+          <div class="description">
+            <h2 class="text-lg font-bold tracking-wider">Best Quality Products</h2>
+            <h3 class="text-6xl font-extrabold my-5 text-betterGreen">Stylish Beds & Planters</h3>
+            <p class="text-lg font-light">Enhance your garden with our stylish beds and planters. Crafted for durability
+              and aesthetics, our products blend seamlessly with nature.</p>
+            <button class="py-1 ml-2 px-8 rounded-xl font-bold"><a href="products.html">Shop now</a></button>
+          </div>
+        </div>
+      </li>
+      <li class="slide">
+        <div class="slide-content container flex justify-center items-center gap-x-14 w-full h-full">
+          <div class="image">
+            <img src="image/shop-page/trees/trees-banner.png" alt="">
+          </div>
+          <div class="description">
+            <h2 class="text-lg font-bold tracking-wider">Best Quality Products</h2>
+            <h3 class="text-6xl font-extrabold my-5 text-betterGreen">Indoor and Outdoor Plants</h3>
+            <p class="text-lg font-light">Elevate your space with our premium plant pots featuring lively, real plants.
+              From small tabletop arrangements to large garden wonders, bring the beauty of nature into your home and
+              garden.</p>
+            <button class="py-1 ml-2 px-8 rounded-xl font-bold"><a href="products.html">Shop now</a></button>
+          </div>
+        </div>
+      </li>
+      <li class="slide">
+        <div class="slide-content container flex justify-center items-center gap-x-14 w-full h-full">
+          <div class="image">
+            <img src="image/shop-page/seeds/seeds-banner.png" alt="">
+          </div>
+          <div class="description">
+            <h2 class="text-lg font-bold tracking-wider">Best Quality Products</h2>
+            <h3 class="text-6xl font-extrabold my-5 text-betterGreen">Grow Your Garden From Scratch</h3>
+            <p class="text-lg font-light">Explore our diverse collection of premium seeds. From nutritious chia seeds to
+              aromatic herbs, kickstart your gardening journey with our high-quality seeds. Cultivate health and flavor
+              at home.</p>
+            <button class="py-1 ml-2 px-8 rounded-xl font-bold"><a href="products.html">Shop now</a></button>
+          </div>
+        </div>
+      </li>
+      <li class="slide">
+        <div class="slide-content container flex justify-center items-center gap-x-14 w-full h-full">
+          <div class="image">
+            <img src="image/shop-page/tools/tools-banner.png" alt="">
+          </div>
+          <div class="description">
+            <h2 class="text-lg font-bold tracking-wider">Best Quality Products</h2>
+            <h3 class="text-6xl font-extrabold my-5 text-betterGreen">Tools That Cultivate Success</h3>
+            <p class="text-lg font-light ">Equip yourself with our premium gardening tools designed for efficiency and
+              durability. From ergonomic hand trowels to versatile pruners, our tools make gardening a joy. Elevate your
+              gardening experience with the right equipment.</p>
+            <button class="py-1 ml-2 px-8 rounded-xl font-bold"><a href="products.html">Shop now</a></button>
+          </div>
+        </div>
+      </li>
+    </ul>
+  </section>
+  <h1 class="text-center tracking-[5px] text-5xl font-extralight pt-28">#Featured Products</h1>
+  <section class="container mx-auto featuredProducts py-28" id="">
+    <div class="image ">
+      <img src="image/shop-page/tools/Wheelbarrow-Garden/Wheelbarrow-Garden-2.png" alt="" class="max-w-full">
+      <div>
+        <a href="products.html">ShopNow</a>
+      </div>
+    </div>
+    <div class="image ">
+      <img src="image/shop-page/planter&beds/planter/planter-4.png" alt="" class="max-w-full">
+      <div>
+        <a href="products.html">ShopNow</a>
+      </div>
+    </div>
+    <div class="image ">
+      <img src="image/shop-page/trees/larg/larg-plant-7.png" alt="" class="max-w-full">
+      <div>
+        <a href="products.html">ShopNow</a>
+      </div>
+    </div>
+    <div class="image ">
+      <img src="image/shop-page/planter&beds/beds/beds-2.png" alt="" class="max-w-full">
+      <div>
+        <a href="products.html">ShopNow</a>
+      </div>
+    </div>
+    <div class="image ">
+      <img src="image/shop-page/trees/medium/medium-plant-1.png" alt="" class="max-w-full">
+      <div>
+        <a href="products.html">ShopNow</a>
+      </div>
+    </div>
+
+  </section>
+  <h2 class="text-center tracking-[5px] text-5xl font-extralight">#About Gshop</h2>
+  <section class="manger-team container mx-auto pt-28">
+    <div class="manger">
+      <div class="p-10 ">
+        <section id="shop-intro">
+          <article class="font-light">
+            <h2 class="py-3 font-medium text-xl">Discover a World of Greenery and Tools</h2>
+            <p>At GreenGenatics, our shop is more than just a place to buy hand tools and plant seeds — it's an
+              immersive experience for plant enthusiasts and gardening aficionados. Step into a world where nature meets
+              innovation, and every corner is filled with the essence of green life.</p>
+          </article>
+        </section>
+        <article class="font-extralight">
+          <h2 class="py-3 font-medium">Why Visit Our Shop?</h2>
+          <ul>
+            <li><strong>Expert Advice:</strong> Our knowledgeable staff is ready to provide expert advice on selecting
+              the perfect tools and seeds for your gardening needs.</li>
+              <br>
+            <li><strong>Quality Products:</strong> Explore a curated selection of high-quality hand tools and a
+              diverse range of plant seeds, carefully chosen for both indoor and outdoor gardening.</li>
+              <br>
+            <li><strong>Inspiring Displays:</strong> Wander through our inspiring displays showcasing creative garden
+              setups and unique plant varieties, sparking ideas for your own green oasis.</li>
+              <br>
+            <li><strong>Hands-On Workshops:</strong> Join our regular workshops and events to learn new gardening
+              techniques, tips, and tricks from seasoned professionals.</li>
+              <br>
+            <li><strong>Community Hub:</strong> Connect with like-minded individuals, share your passion for
+              gardening, and become part of a thriving community that values the beauty of nature.</li>
+          </ul>
+        </article>
+      </div>
+      <div class="image">
+        <img class="max-w-full" src="image/shop-page/about-shop.jpg" alt="">
+      </div>
+    </div>
+  </section>
+
+  <h3 class="text-center tracking-[5px] text-5xl font-extralight py-28">-What Our Customers Are Saying</h3>
+  <section class="customer-testimonials ">
+
+    <article class="flex flex-wrap justify-between items-center mx-auto max-w-screen-lg gap-2">
+
+      <div class="testimonial w-72 bg-white p-4 rounded-xl">
+        <div class="mb-6">
+          <img class="inline mr-6 rounded-s-full" src="image/shop-page/customer-1.jpg" alt="">
+          <strong>- Mary Johnson</strong>
+        </div>
+        <blockquote>
+          <p class="font-light leading-relaxed">"I love shopping at GreenGenatics! The quality of their hand tools is exceptional, and the variety of plant
+            seeds is impressive. The staff is always friendly and ready to offer helpful advice. I've transformed my
+            garden with their products!"</p>
+        </blockquote>
+      </div>
+
+      <div class="testimonial w-72 bg-white p-4 rounded-xl">
+        <div class="mb-6">
+          <img class="inline mr-6 rounded-s-full" src="image/shop-page/customer-2.jpg" alt="">
+          <strong>- Robert Davis</strong>
+        </div>
+        <blockquote>
+          <p class="font-light leading-relaxed">"GreenGenatics is my go-to place for all things gardening. The shop has a welcoming atmosphere, and I
+            appreciate the educational workshops they offer. It's not just a store; it's a community of plant
+            enthusiasts!"</p>
+        </blockquote>
+      </div>
+    </div>
+
+      <div class="testimonial w-72 bg-white p-4 rounded-xl">
+        <div class="mb-6">
+          <img class="inline mr-6 rounded-s-full" src="image/shop-page/customer-3.jpg" alt="">
+          <strong>- Emily White</strong>
+        </div>
+        <blockquote>
+          <p class="font-light leading-relaxed">"As a beginner gardener, I was overwhelmed with choices, but the staff at GreenGenatics guided me through
+            the selection process. The quality of their products and the helpfulness of the team made my shopping
+            experience enjoyable. Highly recommended!"</p>
+        </blockquote>
+      </div>
+
+    </article>
+
+  </section>
+  <article class="font-extralight container mx-auto text-center pt-28 ">
+    <h4 class="text-2xl py-5">Visit Us Today</h4>
+    <p class="font-light px-2">Immerse yourself in the world of GreenGenatics. Whether you're a seasoned gardener or just starting your
+      green journey, our shop is the perfect destination for all your gardening needs. Come explore, discover,
+      and bring the beauty of nature into your life.</p>
+    <p class="text-xl font-normal py-5">We can't wait to welcome you to the GreenGenatics family!</p>
+  </article>
+  <!-- fotter -->
+  <div class="footer bg-darkerGreen">
+    <footer class="container ml-auto mr-auto">
+      <div class="fo-fl flex justify-between p-10">
+        <!--====footer logo==== -->
+        <div class="logo-title text-white text-5xl">
+          <div class="logo ">
+            <a class="" href="shop.html"><img class="" src="image/shop-page/genatics-shop-logo.png" alt=""></a>
+          </div>
+        </div>
+        <!-- ====footer links==== -->
+        <div class="footer-links flex gap-8 flex-1 justify-end">
+          <ul id="" class=" text-white">
+            <h4 class="text-3xl mb-3">Company</h4>
+            <li class="mb-1"><a href="">About</a></li>
+            <li id="" class="mb-1"><a href="">Careers</a></li>
+            <li id="" class="mb-1"><a href="">Privacy Policy</a></li>
+            <li id="" class="mb-1"><a href="">Contact</a></li>
+          </ul>
+          <ul id="" class=" text-white ">
+            <h4 class="text-3xl mb-3">Connect</h4>
+            <li class="mb-1"><a href="">Facebook</a></li>
+            <li id="" class="mb-1"><a href="">Youtube</a></li>
+            <li id="" class="mb-1"><a href="">Twitter</a></li>
+            <li id="" class="mb-1"><a href="">Instagram</a></li>
+          </ul>
+        </div>
+      </div>
+      <!-- ====footer copy-right==== -->
+      <div class="copy-right text-xs p-3 px-10 text-white">
+        Copyright © <span></span> Green Genetics. All Rights Reserved. Privacy Notice
+      </div>
+    </footer>
+  </div>
+  <script src="js/index.js"></script>
+  <script src="js/links.js"></script>
+  <script src="js/shop.js"></script>
+  <script src="js/silders.js"></script>
+</body>
+
+</html>

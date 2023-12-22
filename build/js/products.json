@@ -1,0 +1,816 @@
+[
+    {
+        "id": 1,
+        "categories": {
+            "main": "seed",
+            "sub": null
+        },
+        "title": "Chia seed Chia seed Product Food",
+        "price": 7.99,
+        "img": "image/shop-page/seeds/seed-1.png",
+        "star": 4
+    },
+    {
+        "id": 2,
+        "categories": {
+            "main": "seed",
+            "sub": null
+        },
+        "title": "Common sunflower Sunflower seed Organic food Pumpkin seed",
+        "price": 6.99,
+        "img": "image/shop-page/seeds/seed-2.png",
+        "star": 4
+    },
+    {
+        "id": 3,
+        "categories": {
+            "main": "seed",
+            "sub": null
+        },
+        "title": "black sesame seeds",
+        "price": 12.99,
+        "img": "image/shop-page/seeds/seed-3.png",
+        "star": 5
+    },
+    {
+        "id": 4,
+        "categories": {
+            "main": "seed",
+            "sub": null
+        },
+        "title": "bunch of black seeds",
+        "price": 11.99,
+        "img": "image/shop-page/seeds/seed-4.png",
+        "star": 5
+    },
+    {
+        "id": 5,
+        "categories": {
+            "main": "seed",
+            "sub": null
+        },
+        "title": "Nutrient Pumpkin seed Health",
+        "price": 8.99,
+        "img": "image/shop-page/seeds/seed-5.png",
+        "star": 4
+    },
+    {
+        "id": 6,
+        "categories": {
+            "main": "seed",
+            "sub": null
+        },
+        "title": "Organic food Fennel Anise Herb Spice",
+        "price": 8.99,
+        "img": "image/shop-page/seeds/seed-6.png",
+        "star": 5
+    },
+    {
+        "id": 7,
+        "categories": {
+            "main": "seed",
+            "sub": null
+        },
+        "title": "brown and white seeds",
+        "price": 10.99,
+        "img": "image/shop-page/seeds/seed-7.png",
+        "star": 4.5
+    },
+    {
+        "id": 8,
+        "categories": {
+            "main": "seed",
+            "sub": null
+        },
+        "title": "Black Cumin Seeds",
+        "price": 9.99,
+        "img": "image/shop-page/seeds/seed-8.png",
+        "star": 4.5
+    },
+    {
+        "id": 9,
+        "categories": {
+            "main": "seed",
+            "sub": null
+        },
+        "title": "Chia seed Organic food Sunflower seed",
+        "price": 7.99,
+        "img": "image/shop-page/seeds/seed-9.png",
+        "star": 5
+    },
+    {
+        "id": 10,
+        "categories": {
+            "main": "seed",
+            "sub": null
+        },
+        "title": "chai seeds",
+        "price": 8.99,
+        "img": "image/shop-page/seeds/seed-10.png",
+        "star": 4
+    },
+    {
+        "id": 11,
+        "categories": {
+            "main": "beds&planter",
+            "sub": "planter"
+        },
+        "title": "Flowerpot Polyresin Planter",
+        "price": 55.99,
+        "img": "image/shop-page/planter&beds/planter/planter-1.png",
+        "star": 4.5
+    },
+    {
+        "id": 12,
+        "categories": {
+            "main": "beds&planter",
+            "sub": "planter"
+        },
+        "title": "Flowerpot Crock",
+        "price": 70.99,
+        "img": "image/shop-page/planter&beds/planter/planter-2.png",
+        "star": 4
+    },
+    {
+        "id": 13,
+        "categories": {
+            "main": "beds&planter",
+            "sub": "planter"
+        },
+        "title": "Flowerpot Ceramic Patio Saucer Garden",
+        "price": 60.99,
+        "img": "image/shop-page/planter&beds/planter/planter-3.png",
+        "star": 4
+    },
+    {
+        "id": 14,
+        "categories": {
+            "main": "beds&planter",
+            "sub": "planter"
+        },
+        "title": "Ceramic Flowerpot Pottery Scheurich Terracotta",
+        "price": 50.99,
+        "img": "image/shop-page/planter&beds/planter/planter-4.png",
+        "star": 4.5
+    },
+    {
+        "id": 15,
+        "categories": {
+            "main": "beds&planter",
+            "sub": "planter"
+        },
+        "title": "Flowerpot Clay Terracotta Giara Pottery",
+        "price": 65.99,
+        "img": "image/shop-page/planter&beds/planter/planter-5.png",
+        "star": 5
+    },
+    {
+        "id": 16,
+        "categories": {
+            "main": "beds&planter",
+            "sub": "planter"
+        },
+        "title": "Flowerpot Pottery Ceramic Terracotta Clay",
+        "price": 110.99,
+        "img": "image/shop-page/planter&beds/planter/planter-6.png",
+        "star": 4
+    },
+    {
+        "id": 17,
+        "categories": {
+            "main": "beds&planter",
+            "sub": "beds"
+        },
+        "title": "garden house bed",
+        "price": 150.99,
+        "img": "image/shop-page/planter&beds/beds/beds-1.png",
+        "star": 4
+    },
+    {
+        "id": 18,
+        "categories": {
+            "main": "beds&planter",
+            "sub": "beds"
+        },
+        "title": "gardening bedding Flower",
+        "price": 90.99,
+        "img": "image/shop-page/planter&beds/beds/beds-2.png",
+        "star": 5
+    },
+    {
+        "id": 19,
+        "categories": {
+            "main": "beds&planter",
+            "sub": "beds"
+        },
+        "title": "gardening Baby bedding Flower",
+        "price": 90.99,
+        "img": "image/shop-page/planter&beds/beds/beds-3.png",
+        "star": 4.5
+    },
+    {
+        "id": 20,
+        "categories": {
+            "main": "beds&planter",
+            "sub": "beds"
+        },
+        "title": "Kitchen Garden bed",
+        "price": 200.99,
+        "img": "image/shop-page/planter&beds/beds/beds-4.png",
+        "star": 4.5
+    },
+    {
+        "id": 21,
+        "categories": {
+            "main": "beds&planter",
+            "sub": "beds"
+        },
+        "title": "Raised-bed gardening",
+        "price": 180.99,
+        "img": "image/shop-page/planter&beds/beds/beds-5.png",
+        "star": 5
+    },
+    {
+        "id": 22,
+        "categories": {
+            "main": "beds&planter",
+            "sub": "beds"
+        },
+        "title": "Raised-bed",
+        "price": 199.99,
+        "img": "image/shop-page/planter&beds/beds/beds-6.png",
+        "star": 5
+    },
+    {
+        "id": 23,
+        "categories": {
+            "main": "beds&planter",
+            "sub": "beds"
+        },
+        "title": "Raised-bed gardening",
+        "price": 160.99,
+        "img": "image/shop-page/planter&beds/beds/beds-7.png",
+        "star": 4.5
+    },
+    {
+        "id": 24,
+        "categories": {
+            "main": "garden Tools",
+            "sub": "garden pipe"
+        },
+        "title": "garden pipe",
+        "price": 20.99,
+        "img": "image/shop-page/tools/garden-pipe/gardenHosesPipe-1.png",
+        "star": 4
+    },
+    {
+        "id": 25,
+        "categories": {
+            "main": "garden Tools",
+            "sub": "garden pipe"
+        },
+        "title": "garden pipe",
+        "price": 22.99,
+        "img": "image/shop-page/tools/garden-pipe/gardenHosesPipe-2.png",
+        "star": 4
+    },
+    {
+        "id": 26,
+        "categories": {
+            "main": "garden Tools",
+            "sub": "garden pipe"
+        },
+        "title": "garden pipe",
+        "price": 28.99,
+        "img": "image/shop-page/tools/garden-pipe/gardenHosesPipe-3.png",
+        "star": 5
+    },
+    {
+        "id": 27,
+        "categories": {
+            "main": "garden Tools",
+            "sub": "garden pipe"
+        },
+        "title": "garden pipe",
+        "price": 26.99,
+        "img": "image/shop-page/tools/garden-pipe/gardenHosesPipe-4.png",
+        "star": 5
+    },
+    {
+        "id": 28,
+        "categories": {
+            "main": "garden Tools",
+            "sub": "watering"
+        },
+        "title": "Watering Cans Garden",
+        "price": 60.99,
+        "img": "image/shop-page/tools/watreing/watreing-1.png",
+        "star": 5
+    },
+    {
+        "id": 29,
+        "categories": {
+            "main": "garden Tools",
+            "sub": "watering"
+        },
+        "title": "Watering Cans Garden",
+        "price": 110.99,
+        "img": "image/shop-page/tools/watreing/watreing-2.png",
+        "star": 4
+    },
+    {
+        "id": 30,
+        "categories": {
+            "main": "garden Tools",
+            "sub": "watering"
+        },
+        "title": "for garden pipe",
+        "price": 30.99,
+        "img": "image/shop-page/tools/watreing/watreing-3.png",
+        "star": 4.5
+    },
+    {
+        "id": 31,
+        "categories": {
+            "main": "garden Tools",
+            "sub": "watering"
+        },
+        "title": "for garden pipe",
+        "price": 20.99,
+        "img": "image/shop-page/tools/watreing/watreing-4.png",
+        "star": 4
+    },
+    {
+        "id": 32,
+        "categories": {
+            "main": "garden Tools",
+            "sub": "watering"
+        },
+        "title": "for garden pipe",
+        "price": 27.99,
+        "img": "image/shop-page/tools/watreing/watreing-5.png",
+        "star": 5
+    },
+    {
+        "id": 33,
+        "categories": {
+            "main": "garden Tools",
+            "sub": "hand tools"
+        },
+        "title": "hand tools",
+        "price": 20.99,
+        "img": "image/shop-page/tools/hand-tools/hand-tools-1.png",
+        "star": 5
+    },
+    {
+        "id": 34,
+        "categories": {
+            "main": "garden Tools",
+            "sub": "hand tools"
+        },
+        "title": "hand tools",
+        "price": 15.99,
+        "img": "image/shop-page/tools/hand-tools/hand-tools-2.png",
+        "star": 5
+    },
+    {
+        "id": 35,
+        "categories": {
+            "main": "garden Tools",
+            "sub": "hand tools"
+        },
+        "title": "hand tools",
+        "price": 13.99,
+        "img": "image/shop-page/tools/hand-tools/hand-tools-3.png",
+        "star": 4
+    },
+    {
+        "id": 36,
+        "categories": {
+            "main": "garden Tools",
+            "sub": "hand tools"
+        },
+        "title": "hand tools",
+        "price": 16.99,
+        "img": "image/shop-page/tools/hand-tools/hand-tools-4.png",
+        "star": 4.5
+    },
+    {
+        "id": 37,
+        "categories": {
+            "main": "garden Tools",
+            "sub": "hand tools"
+        },
+        "title": "hand tools",
+        "price": 18.99,
+        "img": "image/shop-page/tools/hand-tools/hand-tools-5.png",
+        "star": 5
+    },
+    {
+        "id": 38,
+        "categories": {
+            "main": "garden Tools",
+            "sub": "hand tools"
+        },
+        "title": "hand tools",
+        "price": 22.99,
+        "img": "image/shop-page/tools/hand-tools/hand-tools-6.png",
+        "star": 4.5
+    },
+    {
+        "id": 39,
+        "categories": {
+            "main": "garden Tools",
+            "sub": "rake gardening"
+        },
+        "title": "rake gardening",
+        "price": 19.99,
+        "img": "image/shop-page/tools/rake-gardening/rake-gardening-1.png",
+        "star": 4.5
+    },
+    {
+        "id": 40,
+        "categories": {
+            "main": "garden Tools",
+            "sub": "rake gardening"
+        },
+        "title": "rake gardening",
+        "price": 18.99,
+        "img": "image/shop-page/tools/rake-gardening/rake-gardening-2.png",
+        "star": 4.5
+    },
+    {
+        "id": 41,
+        "categories": {
+            "main": "garden Tools",
+            "sub": "rake gardening"
+        },
+        "title": "rake gardening",
+        "price": 20.99,
+        "img": "image/shop-page/tools/rake-gardening/rake-gardening-3.png",
+        "star": 4.5
+    },
+    {
+        "id": 42,
+        "categories": {
+            "main": "garden Tools",
+            "sub": "rake gardening"
+        },
+        "title": "rake gardening",
+        "price": 23.99,
+        "img": "image/shop-page/tools/rake-gardening/rake-gardening-4.png",
+        "star": 5
+    },
+    {
+        "id": 43,
+        "categories": {
+            "main": "garden Tools",
+            "sub": "rake gardening"
+        },
+        "title": "rake gardening",
+        "price": 15.99,
+        "img": "image/shop-page/tools/rake-gardening/rake-gardening-5.png",
+        "star": 5
+    },
+    {
+        "id": 44,
+        "categories": {
+            "main": "garden Tools",
+            "sub": "shovel"
+        },
+        "title": "shovel",
+        "price": 16.99,
+        "img": "image/shop-page/tools/shovel/Shovel-1.png",
+        "star": 5
+    },
+    {
+        "id": 45,
+        "categories": {
+            "main": "garden Tools",
+            "sub": "shovel"
+        },
+        "title": "shovel",
+        "price": 20.99,
+        "img": "image/shop-page/tools/shovel/Shovel-2.png",
+        "star": 4.5
+    },
+    {
+        "id": 46,
+        "categories": {
+            "main": "garden Tools",
+            "sub": "Wheelbarrow Garden"
+        },
+        "title": "Wheelbarrow Garden",
+        "price": 300.99,
+        "img": "image/shop-page/tools/Wheelbarrow-Garden/Wheelbarrow-Garden-1.png",
+        "star": 4.5
+    },
+    {
+        "id": 47,
+        "categories": {
+            "main": "garden Tools",
+            "sub": "Wheelbarrow Garden"
+        },
+        "title": "Wheelbarrow Garden",
+        "price": 350.99,
+        "img": "image/shop-page/tools/Wheelbarrow-Garden/Wheelbarrow-Garden-2.png",
+        "star": 4.5
+    },
+    {
+        "id": 48,
+        "categories": {
+            "main": "garden Tools",
+            "sub": "Wheelbarrow Garden"
+        },
+        "title": "Wheelbarrow Garden",
+        "price": 290.99,
+        "img": "image/shop-page/tools/Wheelbarrow-Garden/Wheelbarrow-Garden-3.png",
+        "star": 4
+    },
+    {
+        "id": 49,
+        "categories": {
+            "main": "trees",
+            "sub": "small plants"
+        },
+        "title": "small plant",
+        "price": 70.99,
+        "img": "image/shop-page/trees/small/small-plant-1.png",
+        "star": 4
+    },
+    {
+        "id": 50,
+        "categories": {
+            "main": "trees",
+            "sub": "small plants"
+        },
+        "title": "small plant",
+        "price": 75.99,
+        "img": "image/shop-page/trees/small/small-plant-2.png",
+        "star": 5
+    },
+    {
+        "id": 51,
+        "categories": {
+            "main": "trees",
+            "sub": "small plants"
+        },
+        "title": "small plant",
+        "price": 85.99,
+        "img": "image/shop-page/trees/small/small-plant-3.png",
+        "star": 4
+    },
+    {
+        "id": 52,
+        "categories": {
+            "main": "trees",
+            "sub": "small plants"
+        },
+        "title": "small plant",
+        "price": 71.99,
+        "img": "image/shop-page/trees/small/small-plant-4.png",
+        "star": 4
+    },
+    {
+        "id": 53,
+        "categories": {
+            "main": "trees",
+            "sub": "small plants"
+        },
+        "title": "small plant",
+        "price": 80.99,
+        "img": "image/shop-page/trees/small/small-plant-5.png",
+        "star": 4.5
+    },
+    {
+        "id": 54,
+        "categories": {
+            "main": "trees",
+            "sub": "small plants"
+        },
+        "title": "small plant",
+        "price": 79.99,
+        "img": "image/shop-page/trees/small/small-plant-6.png",
+        "star": 4
+    },
+    {
+        "id": 55,
+        "categories": {
+            "main": "trees",
+            "sub": "small plants"
+        },
+        "title": "small plant",
+        "price": 71.99,
+        "img": "image/shop-page/trees/small/small-plant-7.png",
+        "star": 4.5
+    },
+    {
+        "id": 56,
+        "categories": {
+            "main": "trees",
+            "sub": "small plants"
+        },
+        "title": "small plant",
+        "price": 89.99,
+        "img": "image/shop-page/trees/small/small-plant-8.png",
+        "star": 5
+    },
+    {
+        "id": 57,
+        "categories": {
+            "main": "trees",
+            "sub": "medium plants"
+        },
+        "title": "medium plant",
+        "price": 99.99,
+        "img": "image/shop-page/trees/medium/medium-plant-1.png",
+        "star": 4.5
+    },
+    {
+        "id": 58,
+        "categories": {
+            "main": "trees",
+            "sub": "medium plants"
+        },
+        "title": "medium plant",
+        "price": 110.99,
+        "img": "image/shop-page/trees/medium/medium-plant-2.png",
+        "star": 4.5
+    },
+    {
+        "id": 59,
+        "categories": {
+            "main": "trees",
+            "sub": "medium plants"
+        },
+        "title": "medium plant",
+        "price": 110.99,
+        "img": "image/shop-page/trees/medium/medium-plant-3.png",
+        "star": 5
+    },
+    {
+        "id": 60,
+        "categories": {
+            "main": "trees",
+            "sub": "medium plants"
+        },
+        "title": "medium plant",
+        "price": 115.99,
+        "img": "image/shop-page/trees/medium/medium-plant-4.png",
+        "star": 5
+    },
+    {
+        "id": 61,
+        "categories": {
+            "main": "trees",
+            "sub": "medium plants"
+        },
+        "title": "medium plant",
+        "price": 99.99,
+        "img": "image/shop-page/trees/medium/medium-plant-5.png",
+        "star": 4
+    },
+    {
+        "id": 62,
+        "categories": {
+            "main": "trees",
+            "sub": "medium plants"
+        },
+        "title": "medium plant",
+        "price": 105.99,
+        "img": "image/shop-page/trees/medium/medium-plant-6.png",
+        "star": 5
+    },
+    {
+        "id": 63,
+        "categories": {
+            "main": "trees",
+            "sub": "medium plants"
+        },
+        "title": "medium plant",
+        "price": 110.99,
+        "img": "image/shop-page/trees/medium/medium-plant-7.png",
+        "star": 4.5
+    },
+    {
+        "id": 64,
+        "categories": {
+            "main": "trees",
+            "sub": "medium plants"
+        },
+        "title": "medium plant",
+        "price": 120.99,
+        "img": "image/shop-page/trees/medium/medium-plant-8.png",
+        "star": 5
+    },
+    {
+        "id": 65,
+        "categories": {
+            "main": "trees",
+            "sub": "larg plants"
+        },
+        "title": "larg plant",
+        "price": 150.99,
+        "img": "image/shop-page/trees/larg/larg-plant-1.png",
+        "star": 4.5
+    },
+    {
+        "id": 66,
+        "categories": {
+            "main": "trees",
+            "sub": "larg plants"
+        },
+        "title": "larg plant",
+        "price": 160.99,
+        "img": "image/shop-page/trees/larg/larg-plant-2.png",
+        "star": 5
+    },
+    {
+        "id": 67,
+        "categories": {
+            "main": "trees",
+            "sub": "larg plants"
+        },
+        "title": "larg plant",
+        "price": 140.99,
+        "img": "image/shop-page/trees/larg/larg-plant-3.png",
+        "star": 5
+    },
+    {
+        "id": 68,
+        "categories": {
+            "main": "trees",
+            "sub": "larg plants"
+        },
+        "title": "larg plant",
+        "price": 150.99,
+        "img": "image/shop-page/trees/larg/larg-plant-4.png",
+        "star": 4.5
+    },
+    {
+        "id": 69,
+        "categories": {
+            "main": "trees",
+            "sub": "larg plants"
+        },
+        "title": "larg plant",
+        "price": 154.99,
+        "img": "image/shop-page/trees/larg/larg-plant-5.png",
+        "star": 4.5
+    },
+    {
+        "id": 70,
+        "categories": {
+            "main": "trees",
+            "sub": "larg plants"
+        },
+        "title": "larg plant",
+        "price": 164.99,
+        "img": "image/shop-page/trees/larg/larg-plant-6.png",
+        "star": 4.5
+    },
+    {
+        "id": 71,
+        "categories": {
+            "main": "trees",
+            "sub": "larg plants"
+        },
+        "title": "larg plant",
+        "price": 170.99,
+        "img": "image/shop-page/trees/larg/larg-plant-7.png",
+        "star": 4
+    },
+    {
+        "id": 72,
+        "categories": {
+            "main": "trees",
+            "sub": "larg plants"
+        },
+        "title": "larg plant",
+        "price": 159.99,
+        "img": "image/shop-page/trees/larg/larg-plant-8.png",
+        "star": 5
+    },
+    {
+        "id": 73,
+        "categories": {
+            "main": "trees",
+            "sub": "larg plants"
+        },
+        "title": "larg plant",
+        "price": 141.99,
+        "img": "image/shop-page/trees/larg/larg-plant-9.png",
+        "star": 5
+    },
+    {
+        "id": 74,
+        "categories": {
+            "main": "trees",
+            "sub": "larg plants"
+        },
+        "title": "larg plant",
+        "price": 160.99,
+        "img": "image/shop-page/trees/larg/larg-plant-10.png",
+        "star": 4.5
+    }
+]
